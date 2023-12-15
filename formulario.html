@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Formulario de Registro</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="formulario.css">
+</head>
+<body style="font-family: EucrosiaUPC Bold;"></body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="personajes.html">Personajes</a></li>
+            <li><a href="#">Bestiario</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropbtn">Lugares</a>
+              <div class="dropdown-content">
+                <a href="#">Fortaleza Kaer Morhen</a>
+                <a href="#">Velen</a>
+                <a href="#">Skellige</a>
+              </div>
+            </li>
+            <li><a href="#">Armas y armaduras</a></li>
+            <li><a href="formulario.html"><img src="login.png" height="30" width="30"></a></li>
+          </ul>
+        </ul>
+      </nav>
+  
+    <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+
+    <label for="apellidos">Apellidos:</label>
+    <input type="text" id="apellidos" name="apellidos" required>
+
+    <label for="gmail">Gmail:</label>
+    <input type="email" id="gmail" name="gmail" required>
+
+    <label for="contrasena">Contraseña:</label>
+    <input type="password" id="contrasena" name="contrasena" required>
+
+    <label for="confirmacion">Confirmación de Contraseña:</label>
+    <input type="password" id="confirmacion" name="confirmacion" required>
+
+    <input type="submit" value="Registrarse">
+  </form>
+</body>
+</html>

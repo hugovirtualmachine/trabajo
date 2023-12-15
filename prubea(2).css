@@ -1,0 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100);
+body{background-color: #070707;
+    font-family: "Roboto";}
+.show  {color: white;
+font-size:37px;
+font-weight: bold;
+}
+.grid {display:grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 1.25rem;
+margin: auto;
+}
+
+.hover{transition: 0.5 ease;}
+.hover:hover{transform:scale(1.1);}
